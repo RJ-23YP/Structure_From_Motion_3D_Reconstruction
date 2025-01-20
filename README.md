@@ -1,4 +1,4 @@
-```markdown
+
 # Structure From Motion - 3D Reconstruction
 
 This project implements a **Structure From Motion (SfM)** pipeline for 3D reconstruction from 2D images. It uses a combination of feature matching, fundamental matrix estimation, camera pose recovery, and **bundle adjustment** (via GTSAM) to compute a 3D point cloud and camera positions. 

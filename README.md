@@ -48,7 +48,7 @@ The pipeline processes a dataset of Buddha statue images and outputs the reconst
 
 ## Installation
 
-1. Clone the repository:
+1. Clone the repository using SSH Key Authentication:
    ```bash
    git clone git@github.com:RJ-23YP/Structure_From_Motion_3D_Reconstruction.git
    ```
@@ -56,22 +56,13 @@ The pipeline processes a dataset of Buddha statue images and outputs the reconst
    ```bash
    cd Structure_From_Motion_3D_Reconstruction
    ```
-3. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Ensure you have the following libraries installed:
+3.  Ensure you have the following libraries installed:
    - OpenCV
    - NumPy
    - Matplotlib
    - GTSAM
    - Open3D
    - tqdm
-
-5. **Optional**: Install Git LFS for large file handling (e.g., image datasets):
-   ```bash
-   git lfs install
-   ```
 
 ---
 
@@ -80,9 +71,9 @@ The pipeline processes a dataset of Buddha statue images and outputs the reconst
 ### Running the SfM Pipeline
 
 1. Place input images in the `buddha_images` folder.
-2. Run the Python script:
+2. Run the Python script in a terminal:
    ```bash
-   python SFM_FINAL.py
+   python3 SFM_FINAL.py
    ```
    Or open and execute the Jupyter Notebook:
    ```bash

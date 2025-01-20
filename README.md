@@ -14,10 +14,7 @@ The pipeline processes a dataset of Buddha statue images and outputs the reconst
 - [Installation](#installation)
 - [Usage](#usage)
 - [Pipeline Overview](#pipeline-overview)
-- [Technologies](#technologies)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+- [Tools / Libraries / Frameworks](#Tools/Libraries/Frameworks)
 
 ---
 
@@ -124,7 +121,7 @@ The pipeline processes a dataset of Buddha statue images and outputs the reconst
 
 ---
 
-## Technologies
+## Tools / Libraries / Frameworks
 
 - **Python**: Core programming language.
 - **OpenCV**: For image processing, feature detection, and camera pose estimation.
@@ -134,44 +131,3 @@ The pipeline processes a dataset of Buddha statue images and outputs the reconst
 - **tqdm**: For progress visualization during processing.
 
 ---
-
-## Contributing
-
-Contributions are welcome! Follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add feature-name"
-   ```
-4. Push the branch to your fork:
-   ```bash
-   git push origin feature-name
-   ```
-5. Create a pull request on the main repository.
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute this project as per the license terms.
-
----
-
-## Acknowledgments
-
-- **GTSAM**: For bundle adjustment and pose optimization.
-- **OpenCV**: For feature detection, matching, and pose recovery.
-- **Open3D**: For 3D point cloud visualization.
-- Special thanks to the open-source community for tools and resources used in this project.
-
----
-
-If you have any questions or issues, feel free to [open an issue](https://github.com/RJ-23YP/Structure_From_Motion_3D_Reconstruction/issues).
-```
-
-This README reflects the pipeline, its functionalities, and the tools used. Let me know if further adjustments are needed!
